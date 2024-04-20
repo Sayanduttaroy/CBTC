@@ -1,0 +1,316 @@
+@import url(https://fonts.googleapis.com/css?family=Sofia);
+@import url(https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong);
+body
+{
+    animation: fade ease-in-out  2s;
+    background-color: 	#e9dcfc;
+    
+    
+}
+
+h2
+{
+    font-family: "Trirong", serif;
+    font-weight: bolder;
+}
+.work1
+{
+    filter: drop-shadow(2px 2px 5px grey);
+    
+}
+
+.into
+{
+  border:solid 10px purple;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(224, 16, 224); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #9b2180; 
+  }
+  
+.anime{
+    font-family: "Trirong", serif;
+    font-size:25px;
+   
+}
+.anime:after
+{
+    content:"";
+    animation: disp linear infinite 10s 2s ;
+}
+@keyframes disp {
+
+    0%
+    {
+        content:"Designation:Cyber Patroller";
+        letter-spacing:10px;
+    }
+    50%
+    {
+        content:"Duration: Feb 2023 - Present";
+        letter-spacing:0px;
+    }   
+    100%
+    {
+        content:"Area of Work : Social Media Monitoring";
+        letter-spacing:6px;
+    }
+    
+}
+.edu1
+{
+    filter: drop-shadow(4px 4px 8px grey);
+    animation: chan 10s .5s linear forwards infinite ;
+
+}
+.edanime
+{
+    font-family:"Trirong", serif;
+    font-size:25px; ;
+}
+.edanime:after{
+    content:"";
+    animation: eddisp linear infinite 10s 2s;
+}
+
+.intro
+{
+  
+  border-radius:30px;
+  animation: zom  ease-in-out alternate-reverse 5s 2s infinite ;
+}
+.intro2{
+
+  animation: zomm  ease-in-out alternate-reverse 5s 2s infinite ;
+  border-radius: 30px;
+}
+
+@keyframes zom 
+{
+  0%
+  {
+    box-shadow: 0px 0px 0px 0px transparent;
+  }
+  100%
+  {
+    box-shadow: 10px 8px 8px 10px grey;
+  }
+  }
+  @keyframes zomm 
+{
+  0%
+  {
+    box-shadow: 0px 0px 0px 0px transparent;
+  }
+  100%
+  {
+    box-shadow: 10px 8px 8px 10px grey;
+  }
+  }
+@keyframes eddisp {
+    
+        0%
+        {
+            content:"MBA(EVENING) Specialization:HR 2023-2025";
+            letter-spacing:10px;
+        }
+        50%
+        {
+            content:"B.A English(Hons) 2019-2022";
+            letter-spacing:0px;
+        }
+        100%
+        {
+            content:"12th & 10th Grade 2004-2017";
+            letter-spacing: 10px;
+
+        }
+    }
+
+@keyframes chan
+ {
+    0%
+    {
+        content: url(iiswbm.png);
+    }
+    50%
+    {
+        content: url(RPMC.png);
+    }
+    100%
+    {
+        content:url(PBD.png) ;
+    }
+}
+.sp1
+{
+  font-size:30px;
+  color:orange;
+  font-weight: bolder;
+  font-family: "Sofia", sans-serif;
+}
+#name1{
+    font-family: "Sofia", sans-serif;
+  font-size: 100px;
+  text-shadow: 3px 3px 3px black;
+  color:rgb(228, 19, 228);
+}
+@keyframes fade {
+    0%
+    {
+        opacity:0;
+    }
+    100%
+    {
+        opacity:1;
+    }
+  }
+.but
+    {
+      padding:15px;
+      background-color: #9b2180;
+      border-radius:20px;
+      font-family:"Audiowide",sans-serif;
+      font-size: 20px;
+      color:white;
+      font-weight: bolder;
+      box-shadow:3px 3px 3px 5px grey;
+      transition: .5s;
+      border-color:purple;
+    }
+    .but:hover{
+      box-shadow:3px 3px 3px 5px #9b2180;
+      transition:.5s;
+      cursor:pointer;
+    }
+
+.projec1 h3
+{
+  font-family:  "Audiowide", sans-serif;
+}
+#img1
+{
+    border-radius:90%;
+   height:500px;
+}
+#rt1
+{
+  background-color: rgb(201, 15, 201);
+  border-radius:90%;
+  border:15px wavy rgb(201, 15, 201);
+}
+ #spe {
+    font-family: "Sofia", sans-serif;
+    font-weight:bolder;
+    color:orangered;
+    font-size: 25px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+     /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  .projec2
+  {
+    filter: drop-shadow(5px 5px 5px grey);
+  }
+  .projec1
+  {
+    filter:drop-shadow(5px 5px 5px grey);
+  }
+  .t1 td{
+    border-radius: 20px;
+    color:blueviolet;
+    font-weight: bolder;
+  }
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+  
+ 
+ 
+  
+  th
+  {
+    font-family:"Sofia", sans-serif;
+    font-size: 30px;
+    color:purple;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px black;
+  }
+  .projec2 h3{
+    font-family: "Audiowide", sans-serif;
+  }
+  .lang1, .lang2, .lang3, .lang4, .lang5, .lang6
+  {
+    filter:drop-shadow(2px 2px 5px grey);
+    transition: .5s;
+  }
+  .tech td{
+transition: .5s;
+  }
+  .tech td:hover{
+    transition: .5s;
+    box-shadow: 10px 8px 8px 10px grey;
+  }
+  .pro1,.pro2,.pro3,.pro4,.pro5,.pro6{
+    filter:drop-shadow(5px 5px 5px purple);
+    border-radius:90px;
+  }
+  .proj1,.proj2{
+    font-family: "Audiowide","san-serif";
+    font-size:22px;
+  }
+  .lang1:hover, .lang2:hover, .lang3:hover, .lang4:hover, .lang5:hover, .lang6:hover
+
+{
+    transition:.5s;
+    height:170px;
+    width:170px;
+    backdrop-filter:3px 3px 4px 6px grey;
+    cursor:pointer;
+} 
+ .core1, .core2, .core3, .core4, .core5, .core6
+  {
+    filter: drop-shadow(2px 2px 5px grey);
+    transition: .5s;
+    box-shadow: 10px 8px 8px 10px grey;
+    border-radius:20px;
+  }
+  .core1:hover, .core2:hover, .core3:hover, .core4:hover, .core5:hover, .core6:hover
+  {
+    transition:.5s;
+    height:170px;
+    width:170px;
+    backdrop-filter:3px 3px 4px 6px grey;
+    cursor:pointer;
+  }
